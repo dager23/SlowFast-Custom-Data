@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-02-02T16:24:18.787800",
+    "startedAt": "2024-02-02T16:24:18.140604",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\actionjackson\\newmethod\\Video-Classification\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/GuyKabiri/Video-Classification.git",
+        "commit": "dbe5d0f66dab3313630b165633391696bbc44b49"
+    },
+    "email": null,
+    "root": "E:/actionjackson/newmethod/Video-Classification",
+    "host": "DESKTOP-KTLCEVQ",
+    "username": "yashd",
+    "executable": "E:\\anaconda\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 693.3593711853027,
+            "used": 22.628795623779297
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.840869903564453
+    }
+}

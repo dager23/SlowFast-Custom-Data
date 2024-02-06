@@ -1,0 +1,172 @@
+2024-02-02 21:51:33,600 INFO    StreamThr :9888 [internal.py:wandb_internal():86] W&B internal server running at pid: 9888, started at: 2024-02-02 21:51:33.599485
+2024-02-02 21:51:33,606 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status
+2024-02-02 21:51:33,614 INFO    WriterThread:9888 [datastore.py:open_for_write():87] open: .\wandb\offline-run-20240202_215133-0uw6i9n3\run-0uw6i9n3.wandb
+2024-02-02 21:51:33,750 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: run_start
+2024-02-02 21:51:34,711 DEBUG   HandlerThread:9888 [system_info.py:__init__():27] System info init
+2024-02-02 21:51:34,711 DEBUG   HandlerThread:9888 [system_info.py:__init__():42] System info init done
+2024-02-02 21:51:34,712 INFO    HandlerThread:9888 [system_monitor.py:start():194] Starting system monitor
+2024-02-02 21:51:34,712 INFO    SystemMonitor:9888 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-02 21:51:34,713 INFO    HandlerThread:9888 [system_monitor.py:probe():214] Collecting system info
+2024-02-02 21:51:34,716 INFO    SystemMonitor:9888 [interfaces.py:start():190] Started cpu monitoring
+2024-02-02 21:51:34,716 INFO    SystemMonitor:9888 [interfaces.py:start():190] Started disk monitoring
+2024-02-02 21:51:34,717 INFO    SystemMonitor:9888 [interfaces.py:start():190] Started gpu monitoring
+2024-02-02 21:51:34,718 INFO    SystemMonitor:9888 [interfaces.py:start():190] Started memory monitoring
+2024-02-02 21:51:34,727 INFO    SystemMonitor:9888 [interfaces.py:start():190] Started network monitoring
+2024-02-02 21:51:34,728 DEBUG   HandlerThread:9888 [system_info.py:probe():151] Probing system
+2024-02-02 21:51:34,729 DEBUG   HandlerThread:9888 [system_info.py:_probe_git():136] Probing git
+2024-02-02 21:51:34,816 DEBUG   HandlerThread:9888 [system_info.py:_probe_git():144] Probing git done
+2024-02-02 21:51:34,816 DEBUG   HandlerThread:9888 [system_info.py:probe():199] Probing system done
+2024-02-02 21:51:34,816 DEBUG   HandlerThread:9888 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-02-02T16:21:34.728376', 'startedAt': '2024-02-02T16:21:33.580514', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\actionjackson\\newmethod\\Video-Classification\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/GuyKabiri/Video-Classification.git', 'commit': 'dbe5d0f66dab3313630b165633391696bbc44b49'}, 'email': None, 'root': 'E:/actionjackson/newmethod/Video-Classification', 'host': 'DESKTOP-KTLCEVQ', 'username': 'yashd', 'executable': 'E:\\anaconda\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'/': {'total': 693.3593711853027, 'used': 22.628742218017578}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 15.840869903564453}}
+2024-02-02 21:51:34,816 INFO    HandlerThread:9888 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-02 21:51:34,816 INFO    HandlerThread:9888 [system_monitor.py:probe():227] Publishing system info
+2024-02-02 21:51:34,816 DEBUG   HandlerThread:9888 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-02 21:51:36,747 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:36,747 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:39,135 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:39,135 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:41,502 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:41,502 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:43,466 DEBUG   HandlerThread:9888 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-02 21:51:43,467 INFO    HandlerThread:9888 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-02 21:51:43,472 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:51:43,472 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-02 21:51:43,473 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:51:43,475 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-02 21:51:44,477 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:51:44,478 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:51:49,520 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:51:49,521 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:51:54,582 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:51:54,582 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:51:55,978 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:55,979 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:51:59,627 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:51:59,628 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:04,741 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:04,751 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:08,706 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:52:08,706 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:52:09,864 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:09,865 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:14,991 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:14,991 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:20,086 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:20,087 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:21,288 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:52:21,288 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:52:25,201 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:25,203 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:30,252 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:30,253 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:33,806 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:52:33,807 ERROR   gpu       :9888 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-02 21:52:34,755 DEBUG   SystemMonitor:9888 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-02 21:52:35,310 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:35,311 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:39,792 DEBUG   SenderThread:9888 [sender.py:send():382] send: exit
+2024-02-02 21:52:39,792 INFO    SenderThread:9888 [sender.py:send_exit():589] handling exit code: 1
+2024-02-02 21:52:39,792 INFO    SenderThread:9888 [sender.py:send_exit():591] handling runtime: 66
+2024-02-02 21:52:39,793 INFO    SenderThread:9888 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-02 21:52:39,793 INFO    SenderThread:9888 [sender.py:send_exit():597] send defer
+2024-02-02 21:52:39,793 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,793 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-02 21:52:39,793 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,794 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-02 21:52:39,794 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 1
+2024-02-02 21:52:39,794 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,794 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-02 21:52:39,794 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,794 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-02 21:52:39,794 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 2
+2024-02-02 21:52:39,794 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,794 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-02 21:52:39,794 INFO    HandlerThread:9888 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-02 21:52:39,795 DEBUG   SystemMonitor:9888 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-02 21:52:39,803 INFO    HandlerThread:9888 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-02 21:52:39,803 DEBUG   SystemMonitor:9888 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-02 21:52:39,804 INFO    HandlerThread:9888 [interfaces.py:finish():202] Joined disk monitor
+2024-02-02 21:52:39,848 INFO    HandlerThread:9888 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-02 21:52:39,848 INFO    HandlerThread:9888 [interfaces.py:finish():202] Joined memory monitor
+2024-02-02 21:52:39,848 INFO    HandlerThread:9888 [interfaces.py:finish():202] Joined network monitor
+2024-02-02 21:52:39,849 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,849 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-02 21:52:39,849 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 3
+2024-02-02 21:52:39,849 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,849 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-02 21:52:39,849 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,849 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-02 21:52:39,850 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 4
+2024-02-02 21:52:39,850 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,850 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-02 21:52:39,850 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,850 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-02 21:52:39,850 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 5
+2024-02-02 21:52:39,850 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,850 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-02 21:52:39,850 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,851 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-02 21:52:39,851 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 6
+2024-02-02 21:52:39,851 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,851 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-02 21:52:39,851 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,851 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-02 21:52:39,851 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 7
+2024-02-02 21:52:39,851 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: status_report
+2024-02-02 21:52:39,851 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,852 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-02 21:52:39,852 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: status_report
+2024-02-02 21:52:39,852 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,852 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-02 21:52:39,852 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 8
+2024-02-02 21:52:39,852 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,852 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-02 21:52:39,852 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,852 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-02 21:52:39,852 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 9
+2024-02-02 21:52:39,853 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,853 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-02 21:52:39,853 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,853 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-02 21:52:39,853 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 10
+2024-02-02 21:52:39,853 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,853 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-02 21:52:39,853 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,853 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-02 21:52:39,854 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 11
+2024-02-02 21:52:39,854 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,854 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-02 21:52:39,854 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,854 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-02 21:52:39,854 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 12
+2024-02-02 21:52:39,854 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,854 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-02 21:52:39,854 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,855 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-02 21:52:39,855 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 13
+2024-02-02 21:52:39,855 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,855 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-02 21:52:39,855 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,855 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-02 21:52:39,855 INFO    SenderThread:9888 [sender.py:transition_state():617] send defer: 14
+2024-02-02 21:52:39,855 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: defer
+2024-02-02 21:52:39,856 INFO    HandlerThread:9888 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-02 21:52:39,856 DEBUG   SenderThread:9888 [sender.py:send():382] send: final
+2024-02-02 21:52:39,856 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: defer
+2024-02-02 21:52:39,856 INFO    SenderThread:9888 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-02 21:52:39,857 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-02 21:52:39,857 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-02 21:52:39,857 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: poll_exit
+2024-02-02 21:52:39,857 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: server_info
+2024-02-02 21:52:39,857 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: poll_exit
+2024-02-02 21:52:39,857 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-02 21:52:39,858 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-02 21:52:39,858 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-02 21:52:39,858 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: server_info
+2024-02-02 21:52:39,859 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: job_info
+2024-02-02 21:52:39,859 DEBUG   SenderThread:9888 [sender.py:send_request():409] send_request: job_info
+2024-02-02 21:52:39,859 INFO    MainThread:9888 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-02-02 21:52:39,859 INFO    MainThread:9888 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-02-02 21:52:39,868 DEBUG   HandlerThread:9888 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-02 21:52:39,868 INFO    HandlerThread:9888 [handler.py:finish():869] shutting down handler
+2024-02-02 21:52:40,865 INFO    SenderThread:9888 [sender.py:finish():1572] shutting down sender
+2024-02-02 21:52:40,866 INFO    WriterThread:9888 [datastore.py:close():296] close: .\wandb\offline-run-20240202_215133-0uw6i9n3\run-0uw6i9n3.wandb
